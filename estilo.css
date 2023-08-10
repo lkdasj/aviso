@@ -7,9 +7,16 @@ html, body {
     display: flex;
 }
 
-.texto img{
-    width: 35%;
+.foto img{
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
 }
+
 .texto h1{
     color: white;
     font-size: 40px;
@@ -21,8 +28,10 @@ html, body {
     text-align: center;
 }
 .texto {
+    background: rgba(0, 0, 0, 0.469);
+    border-radius: 40px;
     text-align: center;
-    margin: 0% 20% 20%;
+    margin: 10% 20% 10%;
     padding: 5%;
     z-index: 1;
 }
