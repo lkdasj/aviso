@@ -11,10 +11,12 @@ html, body {
     width: 35%;
 }
 .texto h1{
+    color: white;
     font-size: 40px;
     text-align: center;
 }
 .texto p{
+    color: white;
     font-size: 20px;
     text-align: center;
 }
